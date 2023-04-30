@@ -73,7 +73,7 @@
   case $IS_AUTORUN in
     yes)
         initialization
-        make_all makedtc makedtb make_uefi_image make_fake_kernel appenddtb androidboot clean
+        make_all make_uefi_image make_fake_kernel appenddtb androidboot clean
         ;;
     no)
         initialization
